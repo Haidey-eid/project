@@ -4,6 +4,8 @@
  */
 package hello;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Nardin
@@ -17,5 +19,10 @@ public class Hello {
         // TODO code application logic here
         int x;
         int y;
+          System.out.print("Enter your numbers\n");
+         Scanner z= new Scanner(System.in) ;
+         x=z.nextInt();
+        y=z.nextInt();
+        
     }
 }
